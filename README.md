@@ -3,7 +3,7 @@
 <a href="./README.md"><img src="https://img.shields.io/badge/EN-English-0D1117?style=for-the-badge&labelColor=E5813E"></a>
 <a href="./README.pt-BR.md"><img src="https://img.shields.io/badge/PT--BR-Portugu%C3%AAs-0D1117?style=for-the-badge&labelColor=212E38"></a>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D1117,55:212E38,100:E5813E&text=Lucas%20Manoel&fontColor=E2EAF1&fontSize=52&fontAlignY=34&desc=AI%20Systems%20Engineer&descSize=16&descAlignY=52&section=header" />
+<img width="100%" alt="Lucas Manoel — AI Systems Engineer" src="https://raw.githubusercontent.com/lucas-ai-max/lucas-ai-max/main/assets/hero.svg" />
 
 <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=21&duration=3200&pause=900&color=E5813E&center=true&vCenter=true&width=780&height=44&lines=I+build+AI+agents+that+run+in+production;Construo+agentes+de+IA+que+rodam+em+produ%C3%A7%C3%A3o;Multi-agent+orchestration+%C2%B7+WhatsApp+%C2%B7+Voice+%C2%B7+RAG;Not+demos.+Systems+that+invoice." />
 

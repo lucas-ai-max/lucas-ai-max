@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-label="Lucas Manoel — AI Systems Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/><stop offset="70%" stop-color="#0F1720"/><stop offset="100%" stop-color="#15202B"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E5813E"/><stop offset="100%" stop-color="#E5813E" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#212E38" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <style>
+      .n  { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; font-weight:700; font-size:46px; fill:#E2EAF1; letter-spacing:-1px }
+      .r  { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-weight:600; font-size:13px; fill:#E5813E; letter-spacing:3.2px }
+      .s  { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; font-weight:400; font-size:14px; fill:#7F94A6 }
+      .l  { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-weight:500; font-size:9px; fill:#7F94A6; letter-spacing:.8px }
+    </style>
+  </defs>
+
+  <rect width="1000" height="200" fill="url(#bg)"/>
+  <rect width="1000" height="200" fill="url(#grid)"/>
+  <rect x="0" y="0" width="4" height="200" fill="#E5813E"/>
+  <rect x="48" y="150" width="300" height="1.5" fill="url(#rule)"/>
+
+  <text class="r" x="48" y="60">AI SYSTEMS ENGINEER</text>
+  <text class="n" x="48" y="112">Lucas Manoel</text>
+  <text class="s" x="48" y="176">Agentes de IA em produção · Multi-agent orchestration</text>
+
+  <g stroke-linecap="round">
+    <path id="e0" d="M646,100 L742,100"       stroke="#2A3A47" stroke-width="1.5" fill="none"/>
+    <path id="e1" d="M778,100 C820,100 830,58 866,58"   stroke="#2A3A47" stroke-width="1.5" fill="none"/>
+    <path id="e2" d="M778,100 L866,100"       stroke="#2A3A47" stroke-width="1.5" fill="none"/>
+    <path id="e3" d="M778,100 C820,100 830,142 866,142" stroke="#2A3A47" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <circle cx="630" cy="100" r="9" fill="#0D1117" stroke="#4EA6A0" stroke-width="1.6"/>
+  <text class="l" x="630" y="126" text-anchor="middle">IN</text>
+
+  <rect x="742" y="84" width="36" height="32" rx="5" fill="#0D1117" stroke="#E5813E" stroke-width="1.6"/>
+  <rect x="742" y="84" width="36" height="32" rx="5" fill="none" stroke="#E5813E" stroke-width="1.2">
+    <animate attributeName="stroke-opacity" values="0.9;0;0.9" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="width"  values="36;52" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="height" values="32;46" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="x"      values="742;734" dur="2.8s" repeatCount="indefinite"/>
+    <animate attributeName="y"      values="84;77"  dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <text class="l" x="760" y="134" text-anchor="middle">ROUTER</text>
+
+  <g>
+    <circle cx="878" cy="58"  r="12" fill="#0D1117" stroke="#4EA6A0" stroke-width="1.6"/>
+    <circle cx="878" cy="100" r="12" fill="#0D1117" stroke="#4EA6A0" stroke-width="1.6"/>
+    <circle cx="878" cy="142" r="12" fill="#0D1117" stroke="#4EA6A0" stroke-width="1.6"/>
+    <circle cx="878" cy="58"  r="3.2" fill="#4EA6A0"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" begin="0s"   repeatCount="indefinite"/></circle>
+    <circle cx="878" cy="100" r="3.2" fill="#4EA6A0"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="878" cy="142" r="3.2" fill="#4EA6A0"><animate attributeName="opacity" values=".35;1;.35" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <text class="l" x="924" y="62"  >AGENT</text>
+  <text class="l" x="924" y="104" >AGENT</text>
+  <text class="l" x="924" y="146" >AGENT</text>
+
+  <g fill="#E5813E">
+    <circle r="3"><animateMotion dur="2.6s" begin="0s"   repeatCount="indefinite"><mpath href="#e0"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.6s" begin="0.9s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.6s" begin="1.6s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+    <circle r="3"><animateMotion dur="2.6s" begin="2.2s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+  </g>
+</svg>
